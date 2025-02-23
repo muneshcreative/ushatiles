@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tile Haven - Premium Tiles for Every Space</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Tile Haven</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home" class="hero">
+        <h2>Elevate Your Space with Premium Tiles</h2>
+        <p>Discover a wide range of high-quality tiles for every style.</p>
+        <a href="#products" class="btn">Explore Tiles</a>
+    </section>
+    
+    <section id="products">
+        <h2>Our Collection</h2>
+        <div class="tile-grid">
+            <div class="tile-item">Ceramic Tiles</div>
+            <div class="tile-item">Porcelain Tiles</div>
+            <div class="tile-item">Mosaic Tiles</div>
+            <div class="tile-item">Marble Tiles</div>
+        </div>
+    </section>
+    
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Tile Haven has been a trusted name in the tile industry for over a decade. We provide stylish and durable tiles for homes and businesses.</p>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Tile Haven. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
